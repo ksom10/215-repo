@@ -2,4 +2,4 @@
 
 ## This is the home folder for all my projects
 
-I will make changes to this **read me** if I do a lot of stuff.
+This is the link for homework 2 https://ksom10.github.io/215-repo/eventsy-hero/
