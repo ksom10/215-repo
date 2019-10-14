@@ -1,7 +1,7 @@
 .hero-wrapper {
   width: 100%;
   height: 500px;
-  background-color: $site-yellow;
+  background-color: $site-black;
 
   .hero {
     display: flex;
@@ -11,10 +11,10 @@
     height: 100%;
     background-image: linear-gradient(
         to right,
-        rgba($site-yellow, 0.8),
-        rgba($site-yellow, 0.8)
+        rgba($site-black, 0.5),
+        rgba($site-black, 0.5)
       ),
-      url("../images/home-hero.jpg");
+      url("../images/hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,26 +28,21 @@
 
     h1 {
       color: $site-white;
-      font-size: 40px;
-      font-family: ;
-    }
-
-    .l-imp {
-      color: $site-pink;
-      font-size: 20px;
-      margin-bottom: 35px;
-      font-style: italic;
+      font-size: 60px;
+      font-family: $font-amatic;
     }
 
     .desc {
       color: $site-white;
+      padding-top: 30px;
       margin-bottom: 50px;
       font-size: 20px;
+      font-style: italic;
     }
 
     .site-button {
       padding: 10px 25px;
-      background-color: $site-pink;
+      background-color: $site-blue;
       text-decoration: none;
       color: $site-white;
     }
