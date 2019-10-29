@@ -19,3 +19,32 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+.inputs {
+  height: 400px;
+  @include center-content();
+  padding: 50px;
+  background-color: $site-pink;
+
+  input {
+    width: 529px;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 20px;
+    background-color: $site-input-bg;
+    border: none;
+    color: rgba($site-input-bg, 0.5);
+
+    &:focus {
+      outline: none;
+    }
+  }
+  .submit-button {
+    background-color: $site-white;
+    color: $site-pink;
+    text-transform: uppercase;
+    margin-left: -5px;
+    width: 167px;
+    border: none;
+  }
+}

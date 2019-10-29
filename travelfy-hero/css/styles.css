@@ -33,6 +33,8 @@ p {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
     width: 1280px;
     height: 100%;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/hero.jpg");
@@ -99,3 +101,386 @@ nav {
       margin: 0 10px;
       color: #79addc;
       font-size: 20px; }
+
+.trip {
+  width: 100%;
+  height: 200px;
+  background-color: #fff; }
+  .trip .trip-container {
+    width: 1000px;
+    height: 400px;
+    margin-left: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .trip p {
+    font-size: 30px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: -25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .trip .israel {
+    width: 236px;
+    height: 304px;
+    margin-top: -50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-01.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .trip .israel h1 {
+      font-size: 60px;
+      color: #fff;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: 400;
+      margin-left: 15px;
+      margin-top: 25px; }
+  .trip .usa {
+    width: 236px;
+    height: 304px;
+    margin-top: -50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-02.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .trip .usa h1 {
+      font-size: 60px;
+      color: #fff;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: 400;
+      margin-left: 15px;
+      margin-top: 25px; }
+  .trip .australia {
+    width: 236px;
+    height: 304px;
+    margin-top: -50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-03.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .trip .australia h1 {
+      font-size: 60px;
+      color: #fff;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: 400;
+      margin-left: 15px;
+      margin-top: 25px; }
+  .trip .site-button {
+    padding: 10px 25px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+
+.booking {
+  width: 100%;
+  height: 730px; }
+  .booking .booking-container {
+    width: 1000px;
+    height: 100%;
+    margin-left: 200px;
+    margin-top: 125px;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .booking .booking-container h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #000000;
+      font-weight: 200;
+      margin-bottom: 40px; }
+    .booking .booking-container input {
+      height: 58px;
+      width: 400px;
+      margin: 20px; }
+    .booking .booking-container .email {
+      width: 500px; }
+    .booking .booking-container .hotel {
+      width: 500px; }
+  .booking .check-in {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .booking .check-in input {
+      height: 58px;
+      width: 804px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .booking .check-in p {
+      font-size: 18px;
+      font-family: sans-serif;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-left: 20px;
+      padding-right: 50px; }
+  .booking .check-out {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .booking .check-out input {
+      height: 58px;
+      width: 804px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .booking .check-out p {
+      font-size: 18px;
+      font-family: sans-serif;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-left: 20px;
+      padding-right: 38px; }
+  .booking .age {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .booking .age input {
+      height: 58px;
+      width: 103px;
+      padding-left: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+    .booking .age p {
+      font-size: 18px;
+      font-family: sans-serif;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-left: 20px;
+      padding-right: 10px; }
+  .booking .textbox {
+    margin-top: 20px; }
+    .booking .textbox input {
+      height: 192px;
+      width: 944px;
+      padding-left: 10px; }
+    .booking .textbox p {
+      font-size: 18px;
+      font-family: sans-serif;
+      position: relative;
+      margin-left: 20px;
+      padding-right: 10px; }
+  .booking .site-button {
+    padding: 10px 60px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+
+.hero-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #79addc;
+  margin-top: 360px; }
+  .hero-footer .footer {
+    height: 100%;
+    width: 1100px;
+    margin-left: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .hero-footer .footer .logo {
+      width: 92px;
+      height: 42px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+    .hero-footer .footer span {
+      margin: 0 10px;
+      color: #79addc;
+      font-size: 20px; }
+    .hero-footer .footer p {
+      font-size: 12px;
+      font-family: sans-serif;
+      color: #fff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
