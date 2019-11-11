@@ -104,163 +104,172 @@ nav {
 
 .trip {
   width: 100%;
-  height: 200px;
+  min-height: 304px;
   background-color: #fff; }
   .trip .trip-container {
-    width: 1000px;
-    height: 400px;
-    margin-left: 200px;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
-  .trip p {
-    font-size: 30px;
-    color: #fff;
-    font-family: sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    margin-left: 30px;
-    margin-top: -25px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-  .trip .israel {
-    width: 236px;
-    height: 304px;
-    margin-top: -50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-01.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-    .trip .israel h1 {
-      font-size: 60px;
+    align-items: center; }
+    .trip .trip-container p {
+      font-size: 30px;
       color: #fff;
-      text-decoration: none;
       font-family: sans-serif;
       font-weight: 400;
-      margin-left: 15px;
-      margin-top: 25px; }
-  .trip .usa {
-    width: 236px;
-    height: 304px;
-    margin-top: -50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-02.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-    .trip .usa h1 {
-      font-size: 60px;
-      color: #fff;
       text-decoration: none;
-      font-family: sans-serif;
-      font-weight: 400;
-      margin-left: 15px;
-      margin-top: 25px; }
-  .trip .australia {
-    width: 236px;
-    height: 304px;
-    margin-top: -50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-03.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-    .trip .australia h1 {
-      font-size: 60px;
-      color: #fff;
+      margin-left: 30px;
+      margin-top: -25px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .trip .trip-container .israel {
+      width: 236px;
+      height: 304px;
+      margin-top: -50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-01.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .trip .trip-container .israel h1 {
+        font-size: 60px;
+        color: #fff;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px;
+        text-transform: uppercase; }
+    .trip .trip-container .usa {
+      width: 236px;
+      height: 304px;
+      margin-top: -50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-02.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .trip .trip-container .usa h1 {
+        font-size: 60px;
+        color: #fff;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+    .trip .trip-container .australia {
+      width: 236px;
+      height: 304px;
+      margin-top: -50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-03.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .trip .trip-container .australia h1 {
+        font-size: 60px;
+        color: #fff;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+    .trip .trip-container .site-button {
+      padding: 10px 25px;
+      background-color: #79addc;
       text-decoration: none;
-      font-family: sans-serif;
-      font-weight: 400;
-      margin-left: 15px;
-      margin-top: 25px; }
-  .trip .site-button {
-    padding: 10px 25px;
-    background-color: #79addc;
-    text-decoration: none;
-    color: #fff;
-    margin-left: 20px;
-    border-radius: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+      color: #fff;
+      margin-left: 20px;
+      border-radius: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+
+@media only screen and (max-width: 1000px) {
+  .trip-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
+    flex-direction: column; }
+    .trip-container div {
+      margin: 80px; } }
 
 .booking {
   width: 100%;
-  height: 730px; }
+  min-height: 730px;
+  margin: 0 auto; }
   .booking .booking-container {
-    width: 1000px;
-    height: 100%;
-    margin-left: 200px;
+    width: 100%;
     margin-top: 125px;
     background-color: #fff;
     display: -webkit-box;
@@ -269,13 +278,12 @@ nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; }
-    .booking .booking-container h1 {
-      font-family: sans-serif;
-      font-size: 60px;
-      color: #000000;
-      font-weight: 200;
-      margin-bottom: 40px; }
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
     .booking .booking-container input {
       height: 58px;
       width: 400px;
@@ -437,15 +445,71 @@ nav {
     -ms-flex-pack: center;
     justify-content: center; }
 
+@media only screen and (max-width: 1000px) {
+  .booking {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .booking .booking-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-bottom: 100px; }
+      .booking .booking-container input {
+        width: 453px; }
+      .booking .booking-container .check-in {
+        max-width: 100px; }
+      .booking .booking-container .check-out {
+        max-width: 100px; }
+      .booking .booking-container .age {
+        max-width: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+      .booking .booking-container .site-button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        max-width: 50px; } }
+
+.head {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: #000000;
+  font-weight: 200;
+  margin-bottom: 40px; }
+
+.booking-container .headBox {
+  width: 70%; }
+
 .hero-footer {
-  width: 100%;
-  height: 100px;
+  max-width: 100%;
+  min-height: 110px;
   background-color: #79addc;
   margin-top: 360px; }
   .hero-footer .footer {
     height: 100%;
-    width: 1100px;
-    margin-left: 150px;
+    max-width: 1100px;
+    margin-left: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -456,11 +520,28 @@ nav {
     -ms-flex-align: center;
     align-items: center; }
     .hero-footer .footer .logo {
-      width: 92px;
+      width: 100%;
       height: 42px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+    .hero-footer .footer .logoTwo {
+      width: 100%;
+      margin-left: 400px;
+      height: 42px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
@@ -478,6 +559,10 @@ nav {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
