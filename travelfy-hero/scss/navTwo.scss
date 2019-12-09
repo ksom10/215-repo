@@ -1,0 +1,34 @@
+nav {
+  width: 980px;
+  height: 92px;
+  margin: 0 auto;
+  border-bottom: 2px solid $site-black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  .logoTwo {
+    width: 92px;
+    height: 42px;
+    //border: 2px solid $site-white;
+  }
+
+  .linksTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: lowercase;
+    a {
+      color: $site-black;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    span {
+      margin: 0 10px;
+      color: $site-blue;
+      font-size: 20px;
+    }
+  }
+}

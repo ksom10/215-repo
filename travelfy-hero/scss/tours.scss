@@ -1,0 +1,330 @@
+.tours {
+  width: 100%;
+  min-height: 100%;
+  background-color: $site-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .tours-container {
+    margin-top: 200px;
+    width: 980px;
+    height: 200px;
+    @include center-content(1280px);
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.5),
+        rgba($site-black, 0.5)
+      ),
+      url("../images/tour/tours-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+      color: $site-white;
+      font-size: 60px;
+      display: flex;
+      font-family: sans-serif;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 65px;
+    }
+  }
+  .loc {
+    width: 850px;
+    height: 1000px;
+    //background-color: aquamarine;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    p {
+      font-size: 30px;
+      color: $site-white;
+      font-family: sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      margin-left: 30px;
+      margin-top: -25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .israel {
+      width: 236px;
+      height: 304px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-01.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      h1 {
+        font-size: 60px;
+        color: $site-white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px;
+        text-transform: uppercase;
+      }
+    }
+
+    .usa {
+      width: 236px;
+      height: 304px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-02.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      h1 {
+        font-size: 60px;
+        color: $site-white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px;
+      }
+    }
+    .australia {
+      width: 236px;
+      height: 304px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-03.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      h1 {
+        font-size: 38px;
+        color: $site-white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 12px;
+        margin-top: 25px;
+      }
+    }
+    .site-button {
+      padding: 10px 25px;
+      background-color: $site-blue;
+      text-decoration: none;
+      color: $site-white;
+      margin-left: 20px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .zealand {
+      width: 236px;
+      height: 304px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-04.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      h1 {
+        font-size: 30px;
+        color: $site-white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px;
+        text-transform: uppercase;
+      }
+    }
+
+    .france {
+      width: 236px;
+      height: 304px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-05.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      h1 {
+        font-size: 50px;
+        color: $site-white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px;
+      }
+    }
+    .egypt {
+      width: 236px;
+      height: 304px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-06.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      h1 {
+        font-size: 60px;
+        color: $site-white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px;
+      }
+    }
+
+    .japan {
+      width: 236px;
+      height: 304px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-07.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      h1 {
+        font-size: 60px;
+        color: $site-white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px;
+      }
+    }
+    .canada {
+      width: 236px;
+      height: 304px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-08.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      h1 {
+        font-size: 50px;
+        color: $site-white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px;
+      }
+    }
+    .uae {
+      width: 236px;
+      height: 304px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-09.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      h1 {
+        font-size: 60px;
+        color: $site-white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px;
+      }
+    }
+  }
+}

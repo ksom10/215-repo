@@ -1,0 +1,154 @@
+.aus-home {
+  width: 100%;
+  height: 1800px;
+  background-color: $site-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .aus-package {
+    position: relative;
+    width: 981px;
+    height: 413px;
+    //background-color: chartreuse;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.5),
+        rgba($site-black, 0.5)
+      ),
+      url("../images/tour/tour-03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+      font-size: 80px;
+      color: $site-white;
+      margin-left: 30px;
+      margin-top: 15px;
+    }
+
+    h2 {
+      font-size: 30px;
+      right: 0;
+      bottom: 0;
+      margin-bottom: 0px;
+      position: absolute;
+      color: $site-white;
+    }
+  }
+  .aus-cont {
+    width: 981px;
+    height: 347px;
+    //background-color: aquamarine;
+    margin-top: 30px;
+    //margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    .ausOne {
+      width: 298px;
+      height: 100%;
+      //margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-aus/aus-tour-01.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .ausTwo {
+      width: 298px;
+      height: 100%;
+      //margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-aus/aus-tour-02.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .ausThree {
+      width: 298px;
+      height: 100%;
+      //margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../images/tour/tour-aus/aus-tour-03.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  .aus-info {
+    width: 981px;
+    height: 776px;
+    //background-color: chartreuse;
+
+    h1 {
+      //   margin-right: 191px;
+
+      font-size: 60px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 200;
+      width: 345px;
+      padding-top: 65px;
+      //text-transform: uppercase;
+    }
+    h1:after {
+      content: "";
+      display: block;
+      width: 150px;
+      border-bottom: 2px solid $site-black;
+    }
+    p {
+      font-size: 16px;
+      width: 980px;
+      padding-top: 20px;
+    }
+    .site-button {
+      padding: 10px 25px;
+      background-color: $site-blue;
+      position: absolute;
+      text-decoration: none;
+      font-size: 12px;
+      width: 133px;
+      height: 40px;
+      color: $site-white;
+      margin-left: 20px;
+      border-radius: 20px;
+      display: flex;
+      left: 45%;
+      position: relative;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 150px;
+    }
+  }
+}
