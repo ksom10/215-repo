@@ -49,3 +49,29 @@
     }
   }
 }
+@media only screen and (max-width: 800px) {
+  .hero-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    .hero {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 100px;
+
+      .callout {
+        width: 453px;
+      }
+      .desc {
+        max-width: 100px;
+      }
+
+      .site-button {
+        display: flex;
+        flex-direction: column;
+        max-width: 50px;
+      }
+    }
+  }
+}
